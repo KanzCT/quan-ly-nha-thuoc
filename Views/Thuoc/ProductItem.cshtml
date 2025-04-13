@@ -1,0 +1,32 @@
+﻿@model IEnumerable<QuanLyThuoc.ViewModel.ThuocVM>
+
+@{
+    ViewData["Title"] = "ProductItem";
+}
+
+<h3>Có <b> @Model.Count() </b> Sản Phẩm </h3>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
+            <div class="rounded position-relative fruite-item border shadow">
+                <div class="fruite-img">
+                    <a asp-action="Detail" asp-controller="Thuoc" asp-route-id="@item.MaThuoc">
+                        <img src="~/Hinh/Thuoc/@item.HinhAnh" class="img-fluid w-100 rounded-top" alt="@item.TenThuoc">
+                    </a>
+                </div>
+                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@item.TenLoai</div>
+                <div class="p-4 border-top">
+                    <a asp-action="Detail" asp-controller="Thuoc" asp-route-id="@item.MaThuoc">
+                        <h4>@item.TenThuoc</h4>
+                    </a>
+                    <p>@item.MoTaNgan</p>
+                    <div class="d-flex justify-content-between flex-lg-wrap">
+                        <p class="text-dark fs-5 fw-bold mb-0">@item.GiaBan.ToString("N0") vnđ</p>
+                        <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@item.MaThuoc" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Thêm vào giỏ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

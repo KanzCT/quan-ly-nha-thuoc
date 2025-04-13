@@ -1,0 +1,55 @@
+﻿@model QuanLyThuoc.ViewModel.ProfileVM
+
+@{
+    ViewData["Title"] = "Thông Tin Cá Nhân";
+}
+<style>
+    body {
+        padding-top: 80px; /* chỉnh tùy chiều cao header */
+    }
+</style>
+
+
+<div class="container mt-5">
+    <div class="card shadow-lg rounded-4 p-4">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                @if (!string.IsNullOrEmpty(Model.Hinh))
+                {
+                    <img src="~/Hinh/KhachHang/@Model.Hinh" class="img-fluid rounded-circle shadow-sm mb-3" style="max-width: 200px;" />
+                }
+                else
+                {
+                    <img src="https://via.placeholder.com/200" class="img-fluid rounded-circle shadow-sm mb-3" />
+                }
+                <h5 class="mt-3">@Model.TenKh</h5>
+            </div>
+            <div class="col-md-8">
+                <h4 class="mb-4">Thông Tin Chi Tiết</h4>
+                <table class="table table-borderless">
+                    <tr>
+                        <th>Mã khách hàng:</th>
+                        <td>@Model.MaKh</td>
+                    </tr>
+                    <tr>
+                        <th>Họ tên:</th>
+                        <td>@Model.TenKh</td>
+                    </tr>
+                    <tr>
+                        <th>Số điện thoại:</th>
+                        <td>@Model.Sdt</td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td>@Model.Email</td>
+                    </tr>
+                </table>
+                <div class="col-12 mt-4 d-flex justify-content-center gap-3">
+                    <a asp-action="DangXuat" class="btn btn-danger">Đăng xuất</a>
+                    <a asp-action="TroVe" class="btn btn-secondary px-4">Trở về</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

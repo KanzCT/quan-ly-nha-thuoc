@@ -1,0 +1,107 @@
+﻿@model QuanLyThuoc.ViewModel.ThemThuocVM
+
+@{
+    ViewData["Title"] = "ThemThuoc";
+}
+
+<style>
+    body {
+        padding-top: 80px; /* chỉnh tùy chiều cao header */
+    }
+</style>
+
+
+<div class="container py-5 mt-4">
+    <h2 class="mb-4">Thêm Thuốc Mới</h2>
+
+    <form asp-action="ThemThuoc" enctype="multipart/form-data">
+        <div class="row g-3">
+
+            <div class="col-md-6">
+                <label asp-for="MaThuoc" class="form-label"></label>
+                <input asp-for="MaThuoc" class="form-control" />
+                <span asp-validation-for="MaThuoc" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="TenThuoc" class="form-label"></label>
+                <input asp-for="TenThuoc" class="form-control" />
+                <span asp-validation-for="TenThuoc" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="GiaBan" class="form-label"></label>
+                <input asp-for="GiaBan" class="form-control" />
+                <span asp-validation-for="GiaBan" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="NgaySanXuat" class="form-label"></label>
+                <input asp-for="NgaySanXuat" type="date" class="form-control" />
+                <span asp-validation-for="NgaySanXuat" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="NgayHetHan" class="form-label"></label>
+                <input asp-for="NgayHetHan" type="date" class="form-control" />
+                <span asp-validation-for="NgayHetHan" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="SoLuongThuocCon" class="form-label"></label>
+                <input asp-for="SoLuongThuocCon" class="form-control" />
+                <span asp-validation-for="SoLuongThuocCon" class="text-danger"></span>
+            </div>
+
+            <div class="col-12">
+                <label asp-for="MoTaNgan" class="form-label"></label>
+                <textarea asp-for="MoTaNgan" class="form-control" rows="2"></textarea>
+                <span asp-validation-for="MoTaNgan" class="text-danger"></span>
+            </div>
+
+            <div class="col-12">
+                <label asp-for="ChiTietThuoc" class="form-label"></label>
+                <textarea asp-for="ChiTietThuoc" class="form-control" rows="4"></textarea>
+                <span asp-validation-for="ChiTietThuoc" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="Dvt" class="form-label"></label>
+                <input asp-for="Dvt" class="form-control" />
+                <span asp-validation-for="Dvt" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="HinhAnh" class="form-label">Hình ảnh</label>
+                <input asp-for="HinhAnh" type="file" class="form-control" />
+                <span asp-validation-for="HinhAnh" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="MaDanhMuc" class="form-label"></label>
+                <select asp-for="MaDanhMuc" asp-items="Model.DanhMucList" class="form-control">
+                    <option value="">-- Chọn danh mục --</option>
+                </select>
+                <span asp-validation-for="MaDanhMuc" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="MaNcc" class="form-label"></label>
+                <select asp-for="MaNcc" asp-items="Model.NhaCungCapList" class="form-control">
+                    <option value="">-- Chọn nhà cung cấp --</option>
+                </select>
+                <span asp-validation-for="MaNcc" class="text-danger"></span>
+            </div>
+
+
+            <div class="col-12 text-center mt-4">
+                <button type="submit" class="btn btn-primary px-5">Thêm Thuốc</button>
+                <a asp-action="Index" class="btn btn-secondary px-4">Trở về</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

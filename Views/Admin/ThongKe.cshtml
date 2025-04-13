@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Báo Cáo Thống Kê";
+}
+
+<style>
+    body {
+        padding-top: 80px; /* chỉnh tùy chiều cao header */
+    }
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">📊 Báo Cáo Thống Kê Hệ Thống</h2>
+
+    <ul class="list-group">
+        <li class="list-group-item">
+            Tổng số thuốc trong kho: <strong>@ViewBag.SoLuongThuoc</strong>
+        </li>
+        <li class="list-group-item">Số nhà cung cấp: <strong>@ViewBag.SoNhaCungCap</strong></li>
+        <li class="list-group-item">Tổng giá trị hàng tồn: <strong>@ViewBag.GiaTriTongThuoc</strong></li>
+        <li class="list-group-item">Số thuốc gần hết hạn: <strong>@ViewBag.ThuocGanHetHan</strong></li>
+
+        <li class="list-group-item">Tổng số loại thuốc: <strong>@ViewBag.TongLoaiThuoc</strong></li>
+        <li class="list-group-item">Tổng số đơn hàng: <strong>@ViewBag.TongSoDonHang</strong></li>
+    </ul>
+
+</div>
+
+<div class="container mt-5">
+    <a asp-action="Index" class="btn btn-secondary text-center mb-4">Trở về</a>
+</div>

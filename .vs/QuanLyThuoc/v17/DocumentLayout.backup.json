@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Quanlythuoc\\QuanLyThuoc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC072E71-F950-41F6-97E4-6128F681670E}|QuanLyThuoc.csproj|d:\\quanlythuoc\\quanlythuoc\\views\\thuoc\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC072E71-F950-41F6-97E4-6128F681670E}|QuanLyThuoc.csproj|solutionrelative:views\\thuoc\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC072E71-F950-41F6-97E4-6128F681670E}|QuanLyThuoc.csproj|d:\\quanlythuoc\\quanlythuoc\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC072E71-F950-41F6-97E4-6128F681670E}|QuanLyThuoc.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC072E71-F950-41F6-97E4-6128F681670E}|QuanLyThuoc.csproj|d:\\quanlythuoc\\quanlythuoc\\controllers\\thuoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC072E71-F950-41F6-97E4-6128F681670E}|QuanLyThuoc.csproj|solutionrelative:controllers\\thuoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC072E71-F950-41F6-97E4-6128F681670E}|QuanLyThuoc.csproj|d:\\quanlythuoc\\quanlythuoc\\viewmodel\\thuocvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC072E71-F950-41F6-97E4-6128F681670E}|QuanLyThuoc.csproj|solutionrelative:viewmodel\\thuocvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC072E71-F950-41F6-97E4-6128F681670E}|QuanLyThuoc.csproj|d:\\quanlythuoc\\quanlythuoc\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC072E71-F950-41F6-97E4-6128F681670E}|QuanLyThuoc.csproj|solutionrelative:views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThuocVM.cs",
+              "DocumentMoniker": "D:\\Quanlythuoc\\QuanLyThuoc\\ViewModel\\ThuocVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ThuocVM.cs",
+              "ToolTip": "D:\\Quanlythuoc\\QuanLyThuoc\\ViewModel\\ThuocVM.cs",
+              "RelativeToolTip": "ViewModel\\ThuocVM.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T06:57:23.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThuocController.cs",
+              "DocumentMoniker": "D:\\Quanlythuoc\\QuanLyThuoc\\Controllers\\ThuocController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ThuocController.cs",
+              "ToolTip": "D:\\Quanlythuoc\\QuanLyThuoc\\Controllers\\ThuocController.cs",
+              "RelativeToolTip": "Controllers\\ThuocController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T06:56:02.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Quanlythuoc\\QuanLyThuoc\\Views\\Thuoc\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Thuoc\\Detail.cshtml",
+              "ToolTip": "D:\\Quanlythuoc\\QuanLyThuoc\\Views\\Thuoc\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Thuoc\\Detail.cshtml",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAAwOkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T01:34:49.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Quanlythuoc\\QuanLyThuoc\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\Quanlythuoc\\QuanLyThuoc\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T07:18:53.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\Quanlythuoc\\QuanLyThuoc\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "D:\\Quanlythuoc\\QuanLyThuoc\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T07:15:40.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
